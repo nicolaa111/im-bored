@@ -1,0 +1,65 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(135deg, #ffe6f0, #fff1e6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #fff9fb;
+  padding: 50px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 400px;
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+}
+
+h1 {
+  margin-bottom: 35px;
+  font-size: 24px;
+  color: #ff5ca2;
+}
+
+button {
+  padding: 14px 26px;
+  margin: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.yes-btn {
+  background: #ffd1dc;
+  color: #ff3d8f;
+}
+
+.yes-btn:hover {
+  background: #ffb6c1;
+  transform: scale(1.1);
+}
+
+.no-btn {
+  background: #cce7ff;
+  color: #0059b3;
+  position: relative;
+}
+
+#message {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff5ca2;
+  min-height: 24px;
+}
